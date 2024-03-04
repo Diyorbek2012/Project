@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #eeef4e;
+}
+
+.nav {
+    display: flex;
+    height: 89px;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.nav_list-item {
+    list-style: none;
+}
+
+.nav_list-item_link {
+    text-decoration: none;
+    color: #101010;
+}
+
+.btn {
+    margin-left: auto;
+    padding: 12px 24px;
+    font-size: 14px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: rgb(225, 255, 255);
+    border: 1px solid #000;
+    border-radius: 6px;
+    transition: 0.4s all;
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* Main */
+
+.firstSection {
+    margin-top: 92px;
+}
+
+.row {
+    display: flex;
+    gap: 74px;
+}
+
+.col {
+    width: 100%;
+}
+
+.takeBusiness {
+    font-size: 56px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+}
+
+.takeBusiness::before {
+    cursor: Take your;
+    display: block;
+}
+
+.takeBusiness::after {
+    content: business to the next;
+    display: block;
+}
+
+.takeBusiness_paragrapg {
+    width: 85%;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636f87;
+    line-height: 27px;
+}
+
+.bt {
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 16px;
+    background-color: #1aab7b;
+    border: 1px solid #1aab7b;
+    border-radius: 6px;
+    color: white;
+    transition: 0.4s;
+}
+
+.bt:hover {
+    color: #1aab7b;
+    background-color: #fff;
+}
+
+.container2 {
+    height: 983px;
+    width: 1500px;
+    padding: 0px auto;
+    margin: 0px auto;
+    margin-top: 770px;
+    background-color: #F2F4F6;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.h1 {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+}
+
+.takeBusiness3 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.takeBusiness5 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.takeBusiness3 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.box1 {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 384px;
+    height: 358px;
+    margin-top: 140px;
+    margin-left: 112px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    align-items: start;
+    gap: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.p1 {
+    width: 324px;
+    height: 135px;
+    margin-top: 105px;
+    margin-left: 30px;
+    size: 18px;
+    color: #000000;
+    font-family: Plus Jakarta Sans;
+}
+
+.ViewMore {
+    width: 108px;
+    height: 28px;
+    margin-top: 290px;
+    margin-left: 30px;
+    font-family: Plus Jakarta Sans;
+    color: rgb(0, 0, 0);
+}
+
+.box1:hover {
+    color: rgba(225, 231, 237, 1);
+    background-color: rgba(26, 171, 123, 1);
+}
+
+.takeBusiness4 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.box2 {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 384px;
+    height: 358px;
+    margin-top: 140px;
+    margin-left: 112px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    align-items: start;
+    gap: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.p2 {
+    width: 324px;
+    height: 135px;
+    margin-top: 105px;
+    margin-left: 30px;
+    size: 18px;
+    color: #000000;
+    font-family: Plus Jakarta Sans;
+}
+
+.ViewMore1 {
+    width: 108px;
+    height: 28px;
+    margin-top: 290px;
+    margin-left: 30px;
+    font-family: Plus Jakarta Sans;
+    color: rgb(0, 0, 0);
+}
+
+.box2:hover {
+    color: rgba(225, 231, 237, 1);
+    background-color: rgba(26, 171, 123, 1);
+}
+
+.takeBusiness5 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.box3 {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 384px;
+    height: 358px;
+    margin-top: 140px;
+    margin-left: 112px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    align-items: start;
+    gap: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.p3 {
+    width: 324px;
+    height: 135px;
+    margin-top: 105px;
+    margin-left: 30px;
+    size: 18px;
+    color: #000000;
+    font-family: Plus Jakarta Sans;
+}
+
+.ViewMore2 {
+    width: 108px;
+    height: 28px;
+    margin-top: 290px;
+    margin-left: 30px;
+    font-family: Plus Jakarta Sans;
+    color: rgb(0, 0, 0);
+}
+
+.box3:hover {
+    color: rgba(225, 231, 237, 1);
+    background-color: rgba(26, 171, 123, 1);
+}
+
+.takeBusiness6 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.box4 {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 384px;
+    height: 358px;
+    margin-top: 140px;
+    margin-left: 112px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    align-items: start;
+    gap: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.p4 {
+    width: 324px;
+    height: 135px;
+    margin-top: 105px;
+    margin-left: 30px;
+    size: 18px;
+    color: #000000;
+    font-family: Plus Jakarta Sans;
+}
+
+.ViewMore3 {
+    width: 108px;
+    height: 28px;
+    margin-top: 290px;
+    margin-left: 30px;
+    font-family: Plus Jakarta Sans;
+    color: rgb(0, 0, 0);
+}
+
+.box4:hover {
+    color: rgba(225, 231, 237, 1);
+    background-color: rgba(26, 171, 123, 1);
+}
+
+.takeBusiness7 {
+    width: 217px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    color: #000000;
+}
+
+.box5 {
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 384px;
+    height: 358px;
+    margin-top: 140px;
+    margin-left: 112px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    align-items: start;
+    gap: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.p5 {
+    width: 324px;
+    height: 135px;
+    margin-top: 105px;
+    margin-left: 30px;
+    size: 18px;
+    color: #000000;
+    font-family: Plus Jakarta Sans;
+}
+
+.ViewMore4 {
+    width: 108px;
+    height: 28px;
+    margin-top: 290px;
+    margin-left: 30px;
+    font-family: Plus Jakarta Sans;
+    color: rgb(0, 0, 0);
+}
+
+.box5:hover {
+    color: rgba(225, 231, 237, 1);
+    background-color: rgba(26, 171, 123, 1);
+}
+
+.secondh1 {
+    font-size: 56px;
+    font-weight: 700px;
+    line-height: 78.4px;
+    font-family: Plus Jakarta Sans;
+    text-align: center;
+}
+
+.secondh1::before {
+    cursor: Leave your number and;
+    display: block;
+}
+
+.secondh1::after {
+    content: well call you back;
+    display: block;
+}
+
+.p6 {
+    font-size: 10px;
+    font-weight: 1px;
+    line-height: 78.4px;
+    size: 10px;
+    color: #000000;
+    font-family: Plus Jakarta Sans;
+    text-align: center;
+}
+
+.p6::before {
+    cursor: Nullam laoreet nec turpis et ultrices Duis sit amet quam arcu Nam facilisis;
+    display: block;
+}
+
+.p6::after {
+    cursor: lacinia ex, eget sollicitudin massa pellentesque in Vivamus mattis eros at sem pulvinar;
+    display: block;
+}
+
+.image{
+    width: 1216px;
+    height: 515px;
+    margin-top: 203px;
+    margin-left: 112px;
+    border-radius: 6px;
+}
+
+.container .image{
+    width: 565px;
+    height: 434px;
+    margin-top: 45px;
+    margin-left: 314px;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.img2{
+    margin-top: 0 auto;
+    margin-left: 0 auto;
+}

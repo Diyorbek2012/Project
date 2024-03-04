@@ -1,0 +1,23 @@
+.container {
+    width: 200px;
+    height: 200px;
+    perspective: 800px; 
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: rotateY 4s infinite linear;
+  }
+  
+  @keyframes rotateY {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <style>
+        .maze {
+            display: grid;
+            grid-template-columns: repeat(5, 50px); /* Change the number based on maze size */
+            grid-template-rows: repeat(5, 50px); /* Change the number based on maze size */
+            gap: 2px;
+        }
+
+        .cell {
+            width: 50px;
+            height: 50px;
+            background-color: #eee;
+            border: 1px solid #999;
+        }
+
+        .player {
+            background-color: blue;
+        }
+
+        .exit {
+            background-color: green;
+        }
+
+        .obstacle {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<h1>Maze Game</h1>
+<div class="maze" id="maze"></div>
+<script>
+    const mazeSize = 5; // Change the size of the maze
+    const maze = document.getElementById('maze');
+    let playerPosition = { x: 0, y: 0 };
+
+    // Generate the maze
+    for (let y = 0; y < mazeSize; y++) {
+        for (let x = 0; x < mazeSize; x++) {
+            const cell = document.createElement('div');
+            cell.classList.add('cell');
+            maze.appendChild(cell);
+        }
+    }
+
+    // Set player and exit positions
+    const cells = document.querySelectorAll('.cell');
+    cells[0].classList.add('player');
+    cells[mazeSize * mazeSize - 1].classList.add('exit');
+
+    // Move player based on arrow keys
+    document.addEventListener('keydown', (event) => {
+        let newPosition;
+        switch (event.key) {
+            case 'ArrowUp':
+                newPosition = { x: playerPosition.x, y: playerPosition.y - 1 };
+                break;
+            case 'ArrowDown':
+                newPosition = { x: playerPosition.x, y: playerPosition.y + 1 };
+                break;
+            case 'ArrowLeft':
+                newPosition = { x: playerPosition.x - 1, y: playerPosition.y };
+                break;
+            case 'ArrowRight':
+                newPosition = { x: playerPosition.x + 1, y: playerPosition.y };
+                break;
+            default:
+                return;
+        }
+
+        if (isValidMove(newPosition)) {
+            movePlayer(newPosition);
+        }
+
+        if (newPosition.x === mazeSize - 1 && newPosition.y === mazeSize - 1) {
+            alert('Congratulations! You reached the exit!');
+        }
+    });
+
+    // Check if the move is valid
+    function isValidMove(position) {
+        return position.x >= 0 && position.x < mazeSize &&
+            position.y >= 0 && position.y < mazeSize &&
+            !cells[position.y * mazeSize + position.x].classList.contains('obstacle');
+    }
+
+    // Move the player to the new position
+    function movePlayer(newPosition) {
+        cells[playerPosition.y * mazeSize + playerPosition.x].classList.remove('player');
+        playerPosition = newPosition;
+        cells[playerPosition.y * mazeSize + playerPosition.x].classList.add('player');
+    }
+</script>
+</body>
+</html>

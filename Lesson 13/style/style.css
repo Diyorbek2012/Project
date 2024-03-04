@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    text-decoration: none;
+    display: flex;
+    gap: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li {
+    color: var(--1f1534-hyfen, #1F1534);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.container2 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    margin-top: 95px;
+}
+
+h1 {
+    width: 421.213px;
+    color: #000;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 116.667% */
+}
+
+p {
+    width: 440px;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    /* 152.381% */
+    margin-top: 30px;
+}
+
+button {
+    width: 197.753px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    background: #458FF6;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.img2 {
+    width: 609px;
+    height: 532px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.container3 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 96px;
+}
+
+.text {
+    color: #000;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 155.556% */
+}
+
+.text2 {
+    width: 952px;
+    color: #7D7987;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.container4 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.wrapper_box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3 {
+    width: 96.905px;
+    height: 93.834px;
+    flex-shrink: 0;
+}
+
+h3 {
+    width: 168.571px;
+    height: 58.385px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 233.333% */
+}
+
+.text3 {
+    width: 280.25px;
+    height: 87.578px;
+    flex-shrink: 0;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 175% */
+}
+
+.box1 {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.box2 {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.box3 {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.box4 {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.box5 {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.box6 {
+    width: 380px;
+    height: 380px;
+    flex-shrink: 0;
+}
+
+.but {
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.container5 {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text4 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    /* 155.556% */
+    margin-top: 106px;
+}
+
+.box {
+    width: 380px;
+    height: 504px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-top: 55px;
+}
+
+.img0 {
+    width: 380px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+h2 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 152.381% */
+}
+
+.text5 {
+    width: 266px;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 175% */
+}
+
+.text6 {
+    color: #4089ED;
+    font-family: Mulish;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 164.706% */
+}
+
+.box7 {
+    width: 380px;
+    height: 504px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-top: 55px;
+}
+
+.box8 {
+    width: 380px;
+    height: 504px;
+    flex-shrink: 0;
+    background: #FFF;
+    margin-top: 55px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 325px;
+    flex-shrink: 0;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footerlogo {
+    width: 170.242px;
+    height: 41px;
+    flex-shrink: 0;
+}
+
+.container6 {
+    margin-top: 106px;
+    width: 1505px;
+    height: 325px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img5 {
+    margin-left: 100px;
+    width: 170.242px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+.text10 {
+    margin-left: 100px;
+    width: 386px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+h6 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.img6 {
+    margin-bottom: 50px;
+    width: 42px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.imgb {
+    margin-right: 300px;
+    margin-bottom: 50px;
+    width: 42px;
+    height: 43px;
+    flex-shrink: 0;
+}

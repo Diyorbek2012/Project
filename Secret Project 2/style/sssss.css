@@ -1,0 +1,240 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqrbS10ig.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqrbS10ig.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqrbS10ig.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqrbS10ig.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqrbS10ig.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  :root {
+    --vc-white: #fff;
+    --vc-black: #000;
+    --vc-gray-50: #f8fafc;
+    --vc-gray-100: #f1f5f9;
+    --vc-gray-200: #e2e8f0;
+    --vc-gray-300: #cbd5e1;
+    --vc-gray-400: #94a3b8;
+    --vc-gray-500: #64748b;
+    --vc-gray-600: #475569;
+    --vc-gray-700: #334155;
+    --vc-gray-800: #1e293b;
+    --vc-gray-900: #0f172a;
+    --vc-font-family: BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+    --vc-font-normal: 400;
+    --vc-font-medium: 500;
+    --vc-font-semibold: 600;
+    --vc-font-bold: 700;
+    --vc-text-2xs: 10px;
+    --vc-text-xs: 12px;
+    --vc-text-sm: 14px;
+    --vc-text-base: 16px;
+    --vc-text-lg: 18px;
+    --vc-text-xl: 20px;
+    --vc-text-2xl: 24px;
+    --vc-leading-none: 1;
+    --vc-leading-tight: 1.25;
+    --vc-leading-snug: 1.375;
+    --vc-leading-normal: 1.5;
+    --vc-rounded: 0.25rem;
+    --vc-rounded-md: 0.375rem;
+    --vc-rounded-lg: 0.5rem;
+    --vc-rounded-full: 9999px;
+    --vc-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+    --vc-shadow-lg: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);
+    --vc-shadow-inner: inset 0 2px 4px 0 rgba(0,0,0,.06);
+    --vc-slide-translate: 22px;
+    --vc-slide-duration: 0.15s;
+    --vc-slide-timing: ease;
+    --vc-day-content-transition: all 0.13s ease-in;
+    --vc-weeknumber-offset-inside: 26px;
+    --vc-weeknumber-offset-outside: 34px;
+}
+:root {
+    --el-menu-active-color: var(--el-color-primary);
+    --el-menu-text-color: var(--el-text-color-primary);
+    --el-menu-hover-text-color: var(--el-color-primary);
+    --el-menu-bg-color: var(--el-fill-color-blank);
+    --el-menu-hover-bg-color: var(--el-color-primary-light-9);
+    --el-menu-item-height: 56px;
+    --el-menu-sub-item-height: calc(var(--el-menu-item-height) - 6px);
+    --el-menu-horizontal-sub-item-height: 36px;
+    --el-menu-item-font-size: var(--el-font-size-base);
+    --el-menu-item-hover-fill: var(--el-color-primary-light-9);
+    --el-menu-border-color: var(--el-border-color);
+    --el-menu-base-level-padding: 20px;
+    --el-menu-level-padding: 20px;
+    --el-menu-icon-width: 24px;
+}
+:root {
+    --el-loading-spinner-size: 42px;
+    --el-loading-fullscreen-spinner-size: 50px;
+}
+:root {
+    --el-popup-modal-bg-color: var(--el-color-black);
+    --el-popup-modal-opacity: 0.5;
+}
+:root {
+    --el-color-primary-rgb: 64,158,255;
+    --el-color-success-rgb: 103,194,58;
+    --el-color-warning-rgb: 230,162,60;
+    --el-color-danger-rgb: 245,108,108;
+    --el-color-error-rgb: 245,108,108;
+    --el-color-info-rgb: 144,147,153;
+    --el-font-size-extra-large: 20px;
+    --el-font-size-large: 18px;
+    --el-font-size-medium: 16px;
+    --el-font-size-base: 14px;
+    --el-font-size-small: 13px;
+    --el-font-size-extra-small: 12px;
+    --el-font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    --el-font-weight-primary: 500;
+    --el-font-line-height-primary: 24px;
+    --el-index-normal: 1;
+    --el-index-top: 1000;
+    --el-index-popper: 2000;
+    --el-border-radius-base: 4px;
+    --el-border-radius-small: 2px;
+    --el-border-radius-round: 20px;
+    --el-border-radius-circle: 100%;
+    --el-transition-duration: 0.3s;
+    --el-transition-duration-fast: 0.2s;
+    --el-transition-function-ease-in-out-bezier: cubic-bezier(0.645,0.045,0.355,1);
+    --el-transition-function-fast-bezier: cubic-bezier(0.23,1,0.32,1);
+    --el-transition-all: all var(--el-transition-duration) var(--el-transition-function-ease-in-out-bezier);
+    --el-transition-fade: opacity var(--el-transition-duration) var(--el-transition-function-fast-bezier);
+    --el-transition-md-fade: transform var(--el-transition-duration) var(--el-transition-function-fast-bezier),opacity var(--el-transition-duration) var(--el-transition-function-fast-bezier);
+    --el-transition-fade-linear: opacity var(--el-transition-duration-fast) linear;
+    --el-transition-border: border-color var(--el-transition-duration-fast) var(--el-transition-function-ease-in-out-bezier);
+    --el-transition-box-shadow: box-shadow var(--el-transition-duration-fast) var(--el-transition-function-ease-in-out-bezier);
+    --el-transition-color: color var(--el-transition-duration-fast) var(--el-transition-function-ease-in-out-bezier);
+    --el-component-size-large: 40px;
+    --el-component-size: 32px;
+    --el-component-size-small: 24px;
+    color-scheme: light;
+    --el-color-white: #fff;
+    --el-color-black: #000;
+    --el-color-primary: #409eff;
+    --el-color-primary-light-3: #79bbff;
+    --el-color-primary-light-5: #a0cfff;
+    --el-color-primary-light-7: #c6e2ff;
+    --el-color-primary-light-8: #d9ecff;
+    --el-color-primary-light-9: #ecf5ff;
+    --el-color-primary-dark-2: #337ecc;
+    --el-color-success: #67c23a;
+    --el-color-success-light-3: #95d475;
+    --el-color-success-light-5: #b3e19d;
+    --el-color-success-light-7: #d1edc4;
+Show All Properties (69 more)
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+* {
+    outline: none;
+    font-family: Gilroy;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    font-family: "Gilroy", "sans-serif";
+}
+html[Attributes Style] {
+    -webkit-locale: auto;
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}

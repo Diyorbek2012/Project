@@ -1,0 +1,35 @@
+h1{
+    text-align: center; 
+    margin: auto;
+}
+html{
+    background-color: rgb(1, 255, 6);
+    margin: auto;
+}
+h5{
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+a{
+    color: rgb(255, 0, 0);
+    height: 5000px;
+    max-height: 1000px;
+padding: 100px;
+}
+p{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+label{
+    color: blue;
+    height: 150px;
+}
+input{
+    color: crimson;
+}

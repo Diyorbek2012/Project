@@ -1,0 +1,29 @@
+.container {
+    width: 1500px;
+    margin: 0 auto;
+
+
+
+    background-color: aqua;
+    height: 50vh;
+}
+
+.row {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 50vh;
+}
+
+.col {
+    width: 300px;
+    height: 15vh;
+    background-color: aqua;
+    border: 5px solid aqua
+     
+} 
+h1{
+  height: 100px;
+  height: 100px;
+  text-align: center    ;
+}  

@@ -1,0 +1,161 @@
+.box{
+    background-color: rgb(0, 255, 255);
+    /* background: url('../img/Vector-1.png');
+    background-repeat: no-repeat;
+    margin-bottom: 0px auto; */
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0 20px ;
+}
+
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+.container nav ul li a{
+   text-decoration: none;
+   color: black;
+    margin-left: 20px;
+    font-size: xx-large;
+    text-shadow: 10px 8px 24px ;
+}
+
+
+
+.a{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px #2FC63C;
+}
+
+.b{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px #ffffff;
+}
+
+.d{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(255, 254, 254, 0.67);
+}
+
+
+
+.c{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(255, 254, 254, 0.67);
+}
+
+
+
+.e{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px #fc1100;
+}
+
+
+.f{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(255, 254, 254, 0.67);
+ 
+}
+
+
+.v{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(255, 254, 254, 0.67);
+ 
+}
+
+
+.q{
+    width: 164px;
+    height: 164px;
+    border-radius: 5px;
+    background: #FFF;
+   box-shadow: 0px 1px 4px 0px rgba(255, 254, 254, 0.67);
+}
+
+
+
+.p{
+    width: 164px;
+    height: 164px;
+    width: 164px;
+    height: 164px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px #2FC63C;   
+}
+
+.q{
+    width: 164px;
+    height: 164px;
+    width: 164px;
+    height: 164px;
+    flex-shrink: 0;
+}
+
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.q{
+    width: 164px;
+    height: 164px;
+    width: 164px;
+    height: 164px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+.item{
+margin: 20px;
+}
+
+.hero {
+    display: flex   ;
+    justify-content: space-between;
+}
+
